@@ -1,0 +1,23 @@
+body{
+    background:#855E42;
+}
+
+#backgroundBox{
+    background: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 50px 50px 50px 50px;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
